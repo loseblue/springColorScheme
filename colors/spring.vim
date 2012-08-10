@@ -47,13 +47,14 @@ hi VertSplit        guifg=#2f4f4f   guibg=#2f4f4f   gui=NONE
 hi Folded           guifg=#006699   guibg=#e0e0e0   gui=NONE
 
 " Syntax
-hi Type             guifg=#009933   guibg=NONE      gui=bold
+hi Type             guifg=#009933   guibg=#ffffbb      gui=bold
 hi Define           guifg=#1060a0   guibg=NONE      gui=bold
-hi Comment          guifg=#1e90ff   guibg=NONE      gui=NONE
-hi Constant         guifg=#a07040   guibg=NONE      gui=NONE
+hi Comment          guifg=#b0a594   guibg=NONE      gui=italic
+hi Constant         guifg=#ff0000   guibg=NONE      gui=NONE
 hi String           guifg=#a07040   guibg=#ffffbb   gui=NONE
 hi Number           guifg=#cd0000   guibg=NONE      gui=NONE
 hi Statement        guifg=#ff0000   guibg=NONE      gui=bold
+hi Function         guifg=#117777   guibg=bg        ctermfg=red
 
 " Others
 hi PreProc          guifg=#1060a0    guibg=NONE     gui=NONE
