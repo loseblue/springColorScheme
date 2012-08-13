@@ -4,7 +4,7 @@
 "       Author: loseblue
 "        Email: loseblue[a]163.com
 "      Version: 0.0.1
-"   LastChange: 2012-08-09 17:40:13
+"   LastChange: 2012-08-13 14:12:50
 "      History:
 "=============================================================================
 
@@ -31,8 +31,8 @@ let colors_name = "spring"
 hi Normal           guifg=#000000   guibg=#cce8cf   gui=NONE
 hi Visual           guibg=#ccffff                   gui=NONE
 hi Cursor           guifg=#316ac5   guibg=#2f4f4f   gui=NONE
-" hi Cursorline       guibg=#ffffaa
-hi cursorline       guifg=NONE      guibg=NONE      gui=underline
+hi Cursorline       guibg=#fafad2
+"hi cursorline       guifg=NONE      guibg=NONE      gui=NONE
 hi lCursor          guifg=#000000   guibg=#ffffff   gui=NONE
 hi LineNr           guifg=#1060a0   guibg=#e0e0e0   gui=NONE
 hi Title            guifg=#202020   guibg=NONE      gui=bold
@@ -47,7 +47,7 @@ hi VertSplit        guifg=#2f4f4f   guibg=#2f4f4f   gui=NONE
 hi Folded           guifg=#006699   guibg=#e0e0e0   gui=NONE
 
 " Syntax
-hi Type             guifg=#009933   guibg=#ffffbb      gui=bold
+hi Type             guifg=#009933   guibg=NONE      gui=bold
 hi Define           guifg=#1060a0   guibg=NONE      gui=bold
 hi Comment          guifg=#b0a594   guibg=NONE      gui=italic
 hi Constant         guifg=#ff0000   guibg=NONE      gui=NONE
