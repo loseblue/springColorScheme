@@ -8,6 +8,7 @@ hi cFunction        guifg=#1e90ff   guibg=NONE      gui=bold
 "========================================================
 " Highlight All Math Operator
 "========================================================
+
 " C math operators
 syn match       cMathOperator     display "[-+\*/%=]"
 " C pointer operators
