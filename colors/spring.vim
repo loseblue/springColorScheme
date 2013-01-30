@@ -49,7 +49,7 @@ hi Folded           guifg=#006699   guibg=#e0e0e0   gui=NONE
 " Syntax
 hi Type             guifg=#009933   guibg=NONE      gui=bold
 hi Define           guifg=#1060a0   guibg=NONE      gui=bold
-hi Comment          guifg=#b0a594   guibg=NONE      gui=italic
+hi Comment          guifg=#b0a594   guibg=NONE      gui=NONE
 hi Constant         guifg=#ff0000   guibg=NONE      gui=NONE
 hi String           guifg=#a07040   guibg=#ffffbb   gui=NONE
 hi Number           guifg=#cd0000   guibg=NONE      gui=NONE
